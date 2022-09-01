@@ -27,8 +27,10 @@ git clone https://github.com/setxpro/server-nodejs.git
 ```
 
 # 🗳 Install
+```sh
    npm init 
    npm i typescript --save-dev
+```
 
 
 # 🚀 Usage
