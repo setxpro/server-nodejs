@@ -20,7 +20,7 @@
 # 💾 Clone
 
 ```sh
-git clone https://github.com/setxpro/server-nodejs.git
+   https://github.com/setxpro/server-nodejs.git
 ```
 
 # 🗳 Install
