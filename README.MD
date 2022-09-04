@@ -1,4 +1,3 @@
-
 ### ☄️ Descrição ☄️
 
 <p>
@@ -12,9 +11,16 @@
 </p>
 
 # 🌌 Tecnologias 🌌
+
 ```sh
    Typescript
    NodeJs
+```
+
+# 🗄️ Database
+
+```sh
+   MongoDB Atlas
 ```
 
 # 💾 Clone
@@ -24,16 +30,18 @@
 ```
 
 # 🗳 Install
+
 ```sh
-   npm init 
+   npm init
    npm i typescript --save-dev
 ```
 
-
 # 🚀 Usage
+
 ```sh
    npm run dev
 ```
 
 # Author
-   👤 **Patrick Anjos**
+
+👤 **Patrick Anjos**
