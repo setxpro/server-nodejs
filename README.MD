@@ -11,28 +11,29 @@
    bcrypt por ser um método de criptografia do tipo hash para senhas baseado no Blowfish.🚀
 </p>
 
-<div>
-   <img src="./public/moveit.jpg" width="100%">
-</div>
-
 # 🌌 Tecnologias 🌌
-
-- Typescript
-- NodeJs
+```sh
+   Typescript
+   NodeJs
+```
 
 # 💾 Clone
 
 ```sh
-git clone https://github.com/setxpro/server-nodejs.git
+   https://github.com/setxpro/server-nodejs.git
 ```
 
 # 🗳 Install
+```sh
    npm init 
    npm i typescript --save-dev
+```
 
 
 # 🚀 Usage
+```sh
    npm run dev
+```
 
 # Author
    👤 **Patrick Anjos**
