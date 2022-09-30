@@ -10,8 +10,7 @@ const Person = require("../Models/User");
 const Message = require("../Models/Message");
 
 const app = express();
-
-const port = 8000;
+const port = process.env.APP_URL;
 
 app.use(express.json());
 app.use(cors());
@@ -334,14 +333,10 @@ app.get("/find-message", async (req: Request, res: Response) => {
 });
 
 // Credentials
-const USER = process.env.DB_USER;
-const Pass = process.env.DB_PASS;
-// database connection
+const URI_CONNECT = process.env.MONGO_URL;
 
 mongoose
-  .connect(
-    `mongodb+srv://${USER}:${Pass}@cluster0.gw1meza.mongodb.net/?retryWrites=true&w=majority`
-  )
+  .connect(`${URI_CONNECT}`)
   .then(() => {
     console.log("Database connection established");
   })
