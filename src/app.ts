@@ -234,7 +234,7 @@ app.get("/auth/user/:id", checkToken, async (req: Request, res: Response) => {
 
 app.post("/auth", async (req: Request, res: Response) => {
   const { login, password } = req.body;
-  const id = req.params.id;
+  // const id = req.params.id;
 
   // validate login and password
 
